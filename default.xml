@@ -3,6 +3,14 @@
 
   <remote  name="android-desktop" fetch="https://github.com/android-desktop" />
 
+  <remove-project name="device/asus/fugu-kernel" />
+  <remove-project name="device/google/dragon-kernel" />
+  <remove-project name="device/google/marlin-kernel" />
+  <remove-project name="device/google/wahoo-kernel" />
+  <remove-project name="device/huawei/angler-kernel" />
+  <remove-project name="device/lge/bullhead-kernel" />
+  <remove-project name="device/linaro/hikey-kernel" />
+
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/external/drm_hwcomposer" />
   <remove-project name="platform/external/libdrm" />
@@ -44,7 +52,7 @@
   <project path="external/gbm_gralloc" name="platform_external_gbm_gralloc" remote="android-desktop" revision="oreo-x86" />
   <project path="external/libdrm" name="platform_external_libdrm" remote="android-desktop" revision="oreo-x86" />
   <project path="external/llvm70" name="platform_external_llvm" remote="android-desktop" revision="oreo-x86" />
-  <project path="external/mesa3d" name="platform_external_mesa" remote="android-desktop" revision="oreo-x86" />
+  <project path="external/mesa3d" name="platform_external_mesa3d" remote="android-desktop" revision="android-desktop-oreo-mr1" />
   <project path="external/ntfs-3g" name="platform_external_ntfs-3g" remote="android-desktop" revision="oreo-x86" />
   <project path="external/stagefright-plugins" name="platform_external_stagefright-plugins" remote="android-desktop" revision="oreo-x86" />
   <project path="external/swiftshader" name="platform_external_swiftshader" remote="android-desktop" revision="oreo-x86" />
@@ -61,7 +69,7 @@
   <project path="hardware/x86power" name="platform_hardware_x86power" remote="android-desktop" revision="oreo-x86" />
 
   <project path="device/openthos/generic_pc" name="device_openthos_generic_pc" remote="android-desktop" revision="android-desktop-oreo-mr1" />
-  <project path="kernel" name="kernel_stable" remote="android-desktop" revision="android-desktop-oreo-mr1" />
+  <project path="kernel" name="kernel_stable" remote="android-desktop" revision="openthos-5.0" />
   <project path="external/mksh" name="platform_external_mksh" remote="android-desktop" revision="android-desktop-oreo-mr1" />
   <project path="external/drm_gralloc" name="platform_external_drm_gralloc" remote="android-desktop" revision="android-desktop-oreo-mr1" />
   <project path="external/e2fsprogs" name="platform_external_e2fsprogs" remote="android-desktop" revision="android-desktop-oreo-mr1" />
